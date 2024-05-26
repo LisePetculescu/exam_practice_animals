@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Animal, Trophy } from "../global_interfaces/animal_interface";
+import { useState } from "react";
+import { Animal } from "../global_interfaces/animal_interface";
 import { getAnimals, postAnimal } from "../services/FetchHandler";
 import { defaultAnimal } from "../global_interfaces/emptyInstancedInterfaces";
 

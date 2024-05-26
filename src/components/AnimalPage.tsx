@@ -11,6 +11,7 @@ export default function AnimalPage(){
     const [animals, setAnimals] = useState<Animal[]>([])
     const [formAnimal, setFormAnimal] = useState<Animal>(defaultAnimal)
 
+    // TODO: Implement CRUD functionality to trophies 
     return (
       <>
         <div
