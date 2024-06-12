@@ -3,6 +3,8 @@ import { defaultAnimal } from "../global_interfaces/emptyInstancedInterfaces";
 
 export default function AnimalDetails({ selectedAnimal, setSelectedAnimal }: { selectedAnimal: Animal; setSelectedAnimal: (animal: Animal) => void }) {
   function trophies() {
+    console.log("hej");
+    
 
     if (selectedAnimal.trophies.length === 0) return (
       <>
